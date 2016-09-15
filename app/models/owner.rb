@@ -19,6 +19,3 @@ class Owner
     end
   end
 end
-
-my_owner = Owner.new
-puts my_owner.birthdate.inspect
