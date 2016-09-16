@@ -17,8 +17,8 @@ gem 'spring'
 #learn-rails
 gem 'foundation-rails', '~> 5.5'
 gem 'gibbon'
-gem 'high_voltage'
-gem 'simple_form'
+gem 'high_voltage'#gema para crear paginas con contenido estatico que no esten en public
+gem 'simple_form'#gema para hacer los formularios
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
