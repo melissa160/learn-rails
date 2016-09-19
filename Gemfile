@@ -16,7 +16,7 @@ gem 'spring'
 
 #learn-rails
 gem 'foundation-rails', '~> 5.5'
-gem 'gibbon'
+gem 'gibbon'#gema para la Mailchimp API
 gem 'high_voltage'#gema para crear paginas con contenido estatico que no esten en public. trae un controlador para enrutamiendo de las paginas
 gem 'simple_form'#gema para hacer los formularios
 group :development do
