@@ -4,15 +4,15 @@ ruby '2.3.1'
 #Rails Defaults
 gem 'rails', '4.2.5'
 gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '>= 1.3.0'#comprimir codigo javascript
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
-gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
+gem 'turbolinks'#crear app single page app sin necesidad de usar algun framework como angular o react
+gem 'jbuilder', '~> 2.0'#crear respuestas json para generar apis
 group :development, :test do
-	gem 'byebug'
-  gem 'web-console', '~> 2.0'
-	gem 'spring'
+	gem 'byebug'#hacer debuggin detener el fluo de la aplicacion
+  gem 'web-console', '~> 2.0'#se abre una consola cuando entramos a una excepcion en ruby
+	gem 'spring'#el servidor se apaga y enciende por default tras los cambios
 end
 
 #learn-rails
