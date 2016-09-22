@@ -7,3 +7,5 @@ Basic information:
 * Rails version: 4.2
 
 * In the new branch little-blog I am building a new feature for this app
+
+configuracion
